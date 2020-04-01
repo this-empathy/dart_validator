@@ -1,4 +1,4 @@
-part of flux_validator.src;
+part of dart_validator.src;
 
 String removeWhiteSpace(str) {
   if (str.length <= 0) return '';

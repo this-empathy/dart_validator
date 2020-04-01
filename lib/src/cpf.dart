@@ -1,4 +1,4 @@
-part of flux_validator.src;
+part of dart_validator.src;
 
 bool validatorCpf(value) {
   var cpf = removeSpecialChars(value);

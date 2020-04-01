@@ -1,4 +1,4 @@
-part of flux_validator.src;
+part of dart_validator.src;
 
 bool validatorLetter(value) {
   final RegExp re = RegExp(r'^[a-zA-Z]+$');

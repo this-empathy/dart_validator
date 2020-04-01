@@ -1,4 +1,4 @@
-part of flux_validator.src;
+part of dart_validator.src;
 
 bool validatorCep(value) {
   final RegExp re = RegExp(r'\d{5}-\d{3}');

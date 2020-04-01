@@ -1,4 +1,4 @@
-part of flux_validator.src;
+part of dart_validator.src;
 
 bool validatorCnpj(value) {
   var cnpj = removeSpecialChars(value);
