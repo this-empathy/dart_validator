@@ -1,11 +1,8 @@
-name: dart_validator
-version: 1.0.3
-authors:
-- Lucas Yarid <lucas.yarid@gmail.com>
-- Giovanni Spolidorio <spolidorio@gmail.com>
+name: flux_validator_dart
+version: 1.0.4
 description: >
   A package to validate strings and input data for dart with a variety of validators such as cpf, cnpj, car plate, email, phone number and others.
-homepage: https://github.com/the-cyg/dart_validator
+homepage: https://github.com/this-empathy/dart_validator
 
 environment:
   sdk: '>=2.0.0 <3.0.0'

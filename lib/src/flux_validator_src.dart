@@ -48,14 +48,9 @@ class Validator {
   static bool cpf(value) {
     return validatorCpf(value);
   }
-<<<<<<< HEAD
+
   static bool cpfCnpj(value){
     return validatorCpfCnpj(value);
-=======
-
-  static bool cpfCnpf(value) {
-    return validatorCpfCnpf(value);
->>>>>>> 1d14fd3a0c2ce35367ded7c97b9337ceb553c7b9
   }
 
   static bool date(value) {
