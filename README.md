@@ -8,7 +8,7 @@ A package to validate strings and input data for dart.
 Add to your `pubspec.yaml`
 ```yaml
 dependencies:
-  dart_validator: <lastest-version>
+  flux_validator_dart: <lastest-version>
 ```
 
 And then run `# pub get` in your terminal.
@@ -16,7 +16,7 @@ And then run `# pub get` in your terminal.
 ### How to use
 #### Import
 ```dart
-import 'package:dart_validator/dart_validator.dart';
+import 'package:flux_validator_dart/flux_validator_dart.dart';
 ```
 
 #### Use

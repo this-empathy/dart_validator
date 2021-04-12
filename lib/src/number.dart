@@ -1,4 +1,4 @@
-part of dart_validator.src;
+part of flux_validator_dart.src;
 
 bool validatorNumber(value) {
   final RegExp re = RegExp(r'^[0-9]+$');

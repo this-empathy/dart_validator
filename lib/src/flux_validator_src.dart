@@ -1,4 +1,4 @@
-library dart_validator.src;
+library flux_validator_dart.src;
 
 part './utils.dart';
 

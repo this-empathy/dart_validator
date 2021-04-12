@@ -1,4 +1,4 @@
-part of dart_validator.src;
+part of flux_validator_dart.src;
 
 bool validatorDate(value) {
   final RegExp re = RegExp(r'^\d{2}[.//]\d{2}[.//]\d{4}$');

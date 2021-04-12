@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import '../lib/dart_validator_dart.dart';
+import '../lib/flux_validator_dart.dart';
 
 void main() {
   testWidgets('Teste CPF', (WidgetTester tester) async {

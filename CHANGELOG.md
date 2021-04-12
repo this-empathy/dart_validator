@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2021-04-12
+### Added
+### Changed
+Fix package name
+### Removed
+
 ## [1.0.4] - 2021-04-12
 ### Added
 - Move package to this.empathy

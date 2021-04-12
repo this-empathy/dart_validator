@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dart_validator/dart_validator.dart';
+import 'package:flux_validator_dart/flux_validator_dart.dart';
 
 void main() => runApp(MyApp());
 
