@@ -47,41 +47,40 @@ class MyCustomFormState extends State<MyCustomForm> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           TextFormField(
-            decoration: InputDecoration(
-              labelText: 'Email',
-            ),
-            validator: (value) {
-              if (Validator.email(value)) return 'Please input a valid email.';
-              return null;
-            }
-          ),
+              decoration: InputDecoration(
+                labelText: 'Email',
+              ),
+              validator: (value) {
+                if (Validator.email(value))
+                  return 'Please input a valid email.';
+                return null;
+              }),
           TextFormField(
-            decoration: InputDecoration(
-              labelText: 'Cnpj',
-            ),
-            validator: (value) {
-              if (Validator.cnpj(value)) return 'Please input a valid Cnpj.';
-              return null;
-            }
-          ),
+              decoration: InputDecoration(
+                labelText: 'Cnpj',
+              ),
+              validator: (value) {
+                if (Validator.cnpj(value)) return 'Please input a valid Cnpj.';
+                return null;
+              }),
           TextFormField(
-            decoration: InputDecoration(
-              labelText: 'Mercosul Car Plate',
-            ),
-            validator: (value) {
-              if (Validator.carPlate(value)) return 'Please input a valid Car Plate.';
-              return null;
-            }
-          ),
+              decoration: InputDecoration(
+                labelText: 'Mercosul Car Plate',
+              ),
+              validator: (value) {
+                if (Validator.carPlate(value))
+                  return 'Please input a valid Car Plate.';
+                return null;
+              }),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 16.0),
-            child: RaisedButton(
+            child: MaterialButton(
               onPressed: () {
                 // Validate returns true if the form is valid, or false
                 // otherwise.
                 if (_formKey.currentState.validate()) {
                   // If the form is valid, display a Snackbar.
-                  Scaffold.of(context)
+                  ScaffoldMessenger.of(context)
                       .showSnackBar(SnackBar(content: Text('Processing Data')));
                 }
               },
