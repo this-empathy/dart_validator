@@ -14,7 +14,7 @@ bool validatorCnpj(value) {
 
   final calc = (x) {
     final n = cnpj.substring(0, x);
-    var y = x - 7, s = 0, r = 0;
+    int y = x - 7, s = 0, r = 0;
 
     for (var i = x; i >= 1; i--) {
       s += int.parse(charAt(n, x - i)) * y--;
